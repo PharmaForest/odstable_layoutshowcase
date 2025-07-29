@@ -60,3 +60,43 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
 ~~~
 ![odstable_layoutshowcase](./picture/4-2.png)  
 ![odstable_layoutshowcase](./picture/4-1.png)
+
+
+### Key Features of Sample 4
+ Composite Layout within a Single Report:  
+ By specifying startpage=no in the ODS RTF statement, multiple tables can be rendered within a single RTF page flow, enabling composite layouts in one report.  
+ Footnote Area Adjustment Using a Gap Column:  
+ The example demonstrates how to define a gap column to reserve space for footnotes in the second table.  
+ This ensures consistent layout and prevents footnotes from overlapping with table content  
+
+ # version history
+0.1.0(30July2025): Initial version
+
+## What is SAS Packages?  
+The package is built on top of **SAS Packages framework(SPF)** developed by Bartosz Jablonski.
+For more information about SAS Packages framework, see [SAS_PACKAGES](https://github.com/yabwon/SAS_PACKAGES).  
+You can also find more SAS Packages(SASPACs) in [SASPAC](https://github.com/SASPAC).
+
+## How to use SAS Packages? (quick start)
+### 1. Set-up SPF(SAS Packages Framework)
+Firstly, create directory for your packages and assign a fileref to it.
+~~~sas      
+filename packages "\path\to\your\packages";
+~~~
+Secondly, enable the SAS Packages Framework.  
+(If you don't have SAS Packages Framework installed, follow the instruction in [SPF documentation](https://github.com/yabwon/SAS_PACKAGES/tree/main/SPF/Documentation) to install SAS Packages Framework.)  
+~~~sas      
+%include packages(SPFinit.sas)
+~~~  
+### 2. Install SAS package  
+Install SAS package you want to use using %installPackage() in SPFinit.sas.
+~~~sas      
+%installPackage(packagename, sourcePath=\github\path\for\packagename)
+~~~
+(e.g. %installPackage(ABC, sourcePath=https://github.com/XXXXX/ABC/raw/main/))  
+### 3. Load SAS package  
+Load SAS package you want to use using %loadPackage() in SPFinit.sas.
+~~~sas      
+%loadPackage(packagename)
+~~~
+### Enjoy😁
