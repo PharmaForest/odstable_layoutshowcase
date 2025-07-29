@@ -21,11 +21,21 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
  ~~~sas
 %odstable_layoutshowcase(sampleno=1);
 ~~~
+![odstable_layoutshowcase](./picture/1-3.png)  
 ![odstable_layoutshowcase](./picture/1-1.png)  
 ![odstable_layoutshowcase](./picture/1-2.png) 
-![odstable_layoutshowcase](./picture/1-3.png)  
-
-
+ ~~~sas
 %odstable_layoutshowcase(sampleno=2);
+~~~
+![odstable_layoutshowcase](./picture/2-2.png)  
+![odstable_layoutshowcase](./picture/2-1.png)
+ ~~~sas
 %odstable_layoutshowcase(sampleno=3);
+~~~
+![odstable_layoutshowcase](./picture/3-2.png)  
+![odstable_layoutshowcase](./picture/3-1.png)
+ ~~~sas
 %odstable_layoutshowcase(sampleno=4);
+~~~
+![odstable_layoutshowcase](./picture/4-2.png)  
+![odstable_layoutshowcase](./picture/4-1.png)
