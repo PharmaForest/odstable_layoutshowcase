@@ -17,7 +17,7 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
    - RTF file(s) with pre-defined table layout samples
    - Corresponding template and macro code as .txt for inspection
 ~~~
-## Useage Exampke
+## Useage Example
  ~~~sas
 %odstable_layoutshowcase(sampleno=1);
 ~~~
