@@ -24,6 +24,15 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
 ![odstable_layoutshowcase](./picture/1-3.png)  
 ![odstable_layoutshowcase](./picture/1-1.png)  
 ![odstable_layoutshowcase](./picture/1-2.png) 
+
+### Key Features of Sample 1
+  Multiple Variables in a Single Cell:  
+  When multiple variables are output into the same cell, they are enclosed in parentheses to visually group them together.  
+  Line Breaks in Header Labels:  
+  Line breaks within header text can be defined using a custom delimiter specified by the split= option (e.g., #), allowing for clean vertical formatting.  
+  Hierarchical Header Structure:  
+  Header levels are built by stacking multiple define header statements, where each level is defined by its corresponding start= and end= variable range. This approach enables clear and layered multi-row headers.  
+
  ~~~sas
 %odstable_layoutshowcase(sampleno=2);
 ~~~
