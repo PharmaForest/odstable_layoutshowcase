@@ -1,7 +1,7 @@
 # odstable_layoutshowcase
 A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides reusable examples of table design with multi-level headers, conditional formatting, composite layouts, and auto-generated RTF output. Ideal for clinical reporting, style template development, and training use.
 
-![odstable_layoutshowcase](./odstable_layoutshowcase_small.png)  
+<img width="250" height="250" alt="Image" src="https://github.com/user-attachments/assets/d3d90344-f5d9-4e25-b1d5-999e7027abec" />
 
 # %odstable_layoutshowcase()
  Purpose   : Showcase of PROC ODSTABLE layout patterns with RTF output generator  
