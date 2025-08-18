@@ -58,8 +58,8 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
  ~~~sas
 %odstable_layoutshowcase(sampleno=4);
 ~~~
-![odstable_layoutshowcase](./picture/4-2.png)  
-![odstable_layoutshowcase](./picture/4-1.png)
+<img width="484" height="238" alt="Image" src="https://github.com/user-attachments/assets/82c56834-bbe7-4dc9-8880-f718a45a9630" />
+<img width="890" height="458" alt="Image" src="https://github.com/user-attachments/assets/e27dba09-b672-4f3b-b9cc-2f42cc15ee57" />
 
 
 ### Key Features of Sample 4
