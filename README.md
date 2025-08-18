@@ -21,9 +21,9 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
  ~~~sas
 %odstable_layoutshowcase(sampleno=1);
 ~~~
-![odstable_layoutshowcase](./picture/1-3.png)  
-![odstable_layoutshowcase](./picture/1-1.png)  
-![odstable_layoutshowcase](./picture/1-2.png) 
+<img width="512" height="233" alt="Image" src="https://github.com/user-attachments/assets/52a21f3d-2790-48cc-8630-7f27f58c4926" />
+<img width="887" height="425" alt="Image" src="https://github.com/user-attachments/assets/656fc908-d502-4472-94dc-6288f7706a5f" /> 
+<img width="259" height="483" alt="Image" src="https://github.com/user-attachments/assets/e1f756d2-576c-478f-9f5b-45ab494e2a94" />
 
 ### Key Features of Sample 1
   Multiple Variables in a Single Cell:  
@@ -37,7 +37,7 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
  ~~~sas
 %odstable_layoutshowcase(sampleno=2);
 ~~~
-![odstable_layoutshowcase](./picture/2-2.png)  
+<img width="408" height="184" alt="Image" src="https://github.com/user-attachments/assets/a0f4aab4-e61e-4ef3-9993-b4587b5c18f3" />
 ![odstable_layoutshowcase](./picture/2-1.png)
  ~~~sas
 %odstable_layoutshowcase(sampleno=3);
