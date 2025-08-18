@@ -38,12 +38,12 @@ A SAS macro toolkit to showcase layout patterns using PROC ODSTABLE. Provides re
 %odstable_layoutshowcase(sampleno=2);
 ~~~
 <img width="408" height="184" alt="Image" src="https://github.com/user-attachments/assets/a0f4aab4-e61e-4ef3-9993-b4587b5c18f3" />
-![odstable_layoutshowcase](./picture/2-1.png)
+<img width="886" height="337" alt="Image" src="https://github.com/user-attachments/assets/ebdb85e9-d0a6-4b24-abab-da3e324e73ee" />
  ~~~sas
 %odstable_layoutshowcase(sampleno=3);
 ~~~
-![odstable_layoutshowcase](./picture/3-2.png)  
-![odstable_layoutshowcase](./picture/3-1.png)
+<img width="751" height="391" alt="Image" src="https://github.com/user-attachments/assets/2f8f4305-8bc5-40d0-969e-80033e9ae5f5" />
+<img width="886" height="447" alt="Image" src="https://github.com/user-attachments/assets/ac4f932f-21ad-47f3-97da-ae1697c427eb" />
 
 ### Key Features of Sample 3
   Conditional Styling with cellstyle:  
